@@ -6,22 +6,39 @@ Southern New Hampshire University ePortfolio
 
 
 
-```markdown
 
 
-Data Structures and Algorithms 
-## 
-### 
 
-- Bulleted
-- List
+Software Design & Engineering
 
-1. Numbered
-2. List
+```java
+public class Task {
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+	
+	/*task 1 used for patient calls*/ 
+	class task1 {
+		private String callPatientTaskId;
+		private String callPatientTaskName;
+		private String description;
+		private String checkCallPatientTaskId;
+		
+		task1() {
+		    callPatientTaskId = "INITIAL";
+		    callPatientTaskName = "Place call to patient ID: ";
+		    description = "INITIAL DESCRIPTION";
+		 }
+		
+		task1(String callPatientTaskId) {
+			 checkCallPatientTaskId(callPatientTaskId);
+			 callPatientTaskName = "Place call to patient ID: ";
+			 description = "INITIAL DESCRIPTION";
+			 }
+			 
+		task1(String callPatientTaskId, String callPatientTaskName) {
+			 checkCallPatientTaskId(callPatientTaskId);
+			 callPatientTaskName = "Place call to patient ID: ";
+			 description = "INITIAL DESCRIPTION";
+			 }
 ```
 
 
