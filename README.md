@@ -72,7 +72,7 @@ I reference the SEI Cert Oracle Coding Standard for Java a few times throughout 
 Link to my YouTube video with the full presentation: https://youtu.be/IOyjVY5J8c8
 
 # example slide on security policies
-![security policies](https://github.com/abbyFarnsworth/abbyFarnsworth.github.io/blob/main/triple%20a.png)
+![image](https://user-images.githubusercontent.com/86175837/154809714-379950bd-e7b3-4204-be0e-cbd51de3510e.png)
 
 #Databases
 
