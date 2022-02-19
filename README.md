@@ -81,4 +81,6 @@ You can also update listing fields by searching the listing ID:
 
 It will also search entries for you and pull out the information you want to view. If a field is set to 1, the information will pull, and if it is set to 0, you can skip viewing that field.
 
+![searching listing](https://github.com/abbyFarnsworth/abbyFarnsworth.github.io/blob/main/pycharm%20program%201.png)
+
 I hope including this artifact shows that I am not afraid to expand my skills, learn new systems, and attempt challenging projects. My purpose here is to demonstrate that I can create solutions that deliver value and meet goals. I believe employers are looking for people who can experiment with innovative new techniques and tools. In my experience, the willingness to learn--if that means sitting through hours of online tutorials or scouring the Internet for helpful articles--will take you far.
