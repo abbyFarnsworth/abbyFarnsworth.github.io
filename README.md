@@ -59,8 +59,10 @@ public class Task {
 			 }
 ```
 #Algorithms and Data Structure
+
 This artifact is similar to a presentation I did in October 2021 for CS405 Secure Coding. The presentation involves a description of security policies and secure coding practices that a software development company might follow. I did my original presentation on C++ coding practices, so I did Java this time to expand my horizons a little.
 I chose to include this artifact for two primary reasons. The first is because I want to work in Cybersecurity, and this project shows that I have a security mindset. I can determine if there are potential vulnerabilities in software architecture and design. I can write comprehensive security policies, and come up with ideas to ensure the privacy and security of a company’s data and resources. The other reason was to demonstrate skill using algorithms. An algorithm is a fancy word for a set of instructions that solve a problem or accomplish a task. Secure coding is the process of creating code that solves a problem (eliminating security vulnerabilities in your program) and accomplishes a task (creates a safe, effective, functioning piece of software). I think secure coding is a great example of why we create algorithms. 
+
 I reference the SEI Cert Oracle Coding Standard for Java a few times throughout my presentation. The SEI Cert is an entire book of algorithms written to help developers create more secure code. I really like their work and recommend it as a resource because they provide examples of compliant and non-compliant code, assess threat levels of coding issues or errors, and offer suggestions on automated software checking tools.
 
 ![screenshot](https://github.com/abbyFarnsworth/abbyFarnsworth.github.io/blob/main/Screenshot%202022-02-18%20175133.png)
