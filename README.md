@@ -70,6 +70,9 @@ I reference the SEI Cert Oracle Coding Standard for Java a few times throughout 
 ![secure coding](https://github.com/abbyFarnsworth/abbyFarnsworth.github.io/blob/main/string%20injection.png)
 Link to my YouTube video with the full presentation: https://youtu.be/IOyjVY5J8c8
 
+#example slide on security policies
+![security policies](https://github.com/abbyFarnsworth/abbyFarnsworth.github.io/blob/main/triple%20a.png)
+
 #Databases
 
 This artifact is based off a project I did for CS340 Advanced Programming Concepts. That project was to create a Python-driven dashboard that would interface with a NoSQL database. This time, I used a sample database provided by MongoDB and connected it to PyCharm. I didn’t build a dashboard since that requires using HTML, and it is still beyond my skill scope at this time. Instead, I wrote a program that would interface with the database. 
