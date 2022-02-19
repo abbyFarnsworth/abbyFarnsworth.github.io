@@ -83,6 +83,8 @@ This artifact is based off of a project I did for CS340 Advanced Programming Con
 
 The MongoDB database, called a cluster, is hosted online. You can view it through the website and connect to it through PyCharm. The sample database MongoDB provided offered listings and reviews for Airbnbs. Below is a snippet of the information that a single entry provides: 
 
+![image](https://user-images.githubusercontent.com/86175837/154814107-cd5b8c5e-ae8f-4f21-b8c4-e6f95d7c71c2.png)
+
 The program was then written in PyCharm to mimic the structure of these entries. Here is a piece of the program that creates new listings:
 
 ![image](https://user-images.githubusercontent.com/86175837/154809536-8e2c22b7-a0ba-460c-a461-4a760785e401.png)
