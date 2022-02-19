@@ -4,12 +4,20 @@
 Southern New Hampshire University, Class of 2022
 
 ### Coursework
+Course Outcome 1: You EmployED strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science by completing the following enhancements_________
 
+Course Outcome 2: You DesignED, DevelopED, and DeliverED professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts by completing the following enhancements_________
+
+Course Outcome 3: You DesignED and EvaluateED computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices by completing the following enhancements_________
+
+Course Outcome 4: You DemonstrateD an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals by completing the following enhancements_________
+
+Course Outcome 5: You DevelopED a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources by completing the following enhancements_________
 
 #### Preliminary Code Review 
 
 This is a link to the code review I did at the start of my capstone course. It discusses two coding projects I completed over the course of earning my degree, and how I plan to improve them. The enhanced code is discussed in greater detail below.   
-[code review](https://www.screencast.com/t/Vm9c2Ly0gMy)
+[code review](https://www.screencast.com/t/GTZ646dZ3sT)
 
 
 ### Artifact 1 -- Software Design & Engineering
