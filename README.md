@@ -1,4 +1,4 @@
-## My ePortfolio
+## Abby Farnsworth's ePortfolio
 
 Southern New Hampshire University, Class of 2022
 
