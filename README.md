@@ -108,12 +108,12 @@ It will also search entries for you and pull out the information you want to vie
 I hope including this artifact shows that I am not afraid to expand my skills, learn new systems, and attempt challenging projects. My purpose here is to demonstrate that I can create solutions that deliver value and meet goals. I believe employers are looking for people who can experiment with innovative new techniques and tools. In my experience, the willingness to learn--if that means sitting through hours of online tutorials or scouring the Internet for helpful articles--will take you far.
 
 ### Other Sample Coursework
-#### Assembly language and Reverse Engineering
+#### CS410 Software Reverse Engineering
 ![image](https://user-images.githubusercontent.com/86175837/154815832-9ef218f9-c481-4d2a-af09-8aa9bcafedf2.png)
 
-#### OpenGL
+#### CS330 Comp Graphic & Visualization
 Sample of C++ code written for OpenGL program:
-`               // draw plane
+               `// draw plane
 		glDrawElements(GL_TRIANGLES, planeNumIndices, GL_UNSIGNED_SHORT, (void*)planeIndexByteOffset);
 
 		// setup to draw sphere 1
@@ -125,6 +125,7 @@ Sample of C++ code written for OpenGL program:
 		lightingShader.setMat4("model", model);`
 		
 Screenshot of completed project:
+
 
 
 ### About Me
