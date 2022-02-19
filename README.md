@@ -1,22 +1,40 @@
 ## ***Abby Farnsworth***
-### ***My ePortfolio***
+### ***ePortfolio***
 
 Southern New Hampshire University, Class of 2022
 
-### Coursework
-Course Outcome 1: You EmployED strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science by completing the following enhancements_________
+### Self Assessment
+Course Outcome 1: You EmployED strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science by completing the following enhancements_________ Does the student demonstrate the ability to use interaction to create code-review experiences?
+Does the student demonstrate the ability to understand code reviews individually and within a team environment?
+Does the student demonstrate the ability to provide contextual, in-code comments that result in easily readable and understandable code?
+Does the student demonstrate the ability to support decision making for software design stakeholders?
+Does the student demonstrate the ability to discuss experiences and best practices working in collaborative environments? 
 
-Course Outcome 2: You DesignED, DevelopED, and DeliverED professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts by completing the following enhancements_________
+Course Outcome 2: You DesignED, DevelopED, and DeliverED professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts by completing the following enhancements_________ Does the student demonstrate the ability to discuss experiences and best practices in communication?
+Does the student demonstrate the ability to communicate appropriately to specific audiences and contexts? 
 
-Course Outcome 3: You DesignED and EvaluateED computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices by completing the following enhancements_________
+Course Outcome 3: You DesignED and EvaluateED computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices by completing the following enhancements_________ Does the student demonstrate the ability to use pseudocode to segment functionality in software and make design trades?
+Does the student demonstrate the ability to program solutions to solve logic problems and implement them in software?
+Does the student demonstrate the ability to clearly articulate approaches to solving complex logic problems inherent software?
+Does the student demonstrate the ability to discuss experiences and best practices in designing and evaluating computing solutions? 
 
-Course Outcome 4: You DemonstrateD an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals by completing the following enhancements_________
+Course Outcome 4: You DemonstrateD an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals by completing the following enhancements_________ Does the student demonstrate the ability to employ iterative testing techniques in the code?
+Does the student demonstrate the ability to use the software development life cycle to create realistic production schedules for software projects?
+Does the student demonstrate the ability to create industry-standard software designs?
+Does the student discuss experiences and best practices in using well-founded and innovative techniques, skills, and tools in computing practices?
+Does the student create more robust and efficient code to deliver value and accomplish industry-specific goals? 
 
 Course Outcome 5: You DevelopED a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources by completing the following enhancements_________
+Does the student demonstrate the ability to address potential design flaws in software architecture during the requirements phase?
+Does the student demonstrate the ability to find and eradicate security vulnerabilities or bugs?
+Does the student demonstrate the ability to define an approach that ensures all data are explicitly validated?
+Does the student demonstrate the ability to consider future changes to objects and classes?
+Does the student demonstrate the ability to discuss experiences and best practices in developing a security mindset? 
 
+## Coursework
 #### Preliminary Code Review 
 
-This is a link to the code review I did at the start of my capstone course. It discusses two coding projects I completed over the course of earning my degree, and how I plan to improve them. The enhanced code is discussed in greater detail below.   
+This is a link to the code review I did at the start of my capstone course. It discusses two coding projects I completed over the course of earning my degree, and how I planned to improve them. The enhanced code is discussed in greater detail below.   
 [code review](https://www.screencast.com/t/GTZ646dZ3sT)
 
 
@@ -71,7 +89,7 @@ public class Task {
 			 }
 ```
 ### Artifact 2 - Algorithms & Data Structure
-
+#### Explanation of Project
 This artifact is similar to a presentation I did for CS405 Secure Coding. The presentation involves a description of security policies and secure coding practices that a software development company might follow. I did my original presentation on C++ coding practices, so I did Java this time to expand my horizons a little.
 I chose to include this artifact for two primary reasons. The first is because I plan to work in Cybersecurity, and this project shows that I have a security mindset. I can determine if there are potential vulnerabilities in software architecture and design. I can write comprehensive security policies, and come up with ideas to ensure the privacy and security of a company’s data and resources. The other reason was to demonstrate skill using algorithms. An algorithm is a fancy word for a set of instructions that solve a problem or accomplish a task. Secure coding is the process of creating code that solves a problem (eliminating security vulnerabilities in your program) and accomplishes a task (creates a safe, effective, functioning piece of software). Secure coding is a great example of why we create algorithms. 
 
@@ -86,7 +104,7 @@ Link to my YouTube video with the full presentation: [youtube](https://youtu.be/
 ![image](https://user-images.githubusercontent.com/86175837/154809714-379950bd-e7b3-4204-be0e-cbd51de3510e.png)
 
 ### Artifact 3 - Databases
-
+#### Explanation of Project
 This artifact is based off of a project I did for CS340 Advanced Programming Concepts. That project was to create a Python-driven dashboard using HTML that would interface with a NoSQL database. This time, I used a sample database provided by MongoDB, connected it to PyCharm, and wrote a program that would interface with the database. 
 
 The MongoDB database, called a cluster, is hosted online. You can view it through the website and connect to it through PyCharm. The sample database MongoDB provided offered listings and reviews for Airbnbs. Below is a snippet of the information that a single entry provides: 
@@ -111,10 +129,28 @@ I hope including this artifact shows that I am not afraid to expand my skills, l
 #### CS410 Software Reverse Engineering
 ![image](https://user-images.githubusercontent.com/86175837/154815832-9ef218f9-c481-4d2a-af09-8aa9bcafedf2.png)
 
+evaluating C++ code for vulnerabilities
+```
+// Prompt user for username
+	//Security issue: un-sanitized string input allowed into system
+
+	//Security fix: establish acceptable characters
+	static char ok_chars[] = "abcdefghijklmnopqrstuvwxyz"
+		"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+		"1234567890_-.@";
+	char user_data[] = "Bad char 1:} Bad char 2:{";
+	char* cp = user_data; /* Cursor into string */
+	const char* end = user_data + strlen(user_data);
+	for (cp += strspn(cp, ok_chars); cp != end; cp += strspn(cp, ok_chars)) {
+		*cp = '_';
+	}
+```	
+
 #### CS330 Comp Graphic & Visualization
 Sample of C++ code written for OpenGL program:
-               `// draw plane
-		glDrawElements(GL_TRIANGLES, planeNumIndices, GL_UNSIGNED_SHORT, (void*)planeIndexByteOffset);
+
+```             // draw plane
+		glDrawElements(GL_TRIANGLES, planeNumIndices, GL_UNSIGNED_SHORT, (void*)planeIndexByteOffset);`
 
 		// setup to draw sphere 1
 		glBindTexture(GL_TEXTURE_2D, ballDiffuseMap);  // bottom of DVD stand
@@ -122,13 +158,15 @@ Sample of C++ code written for OpenGL program:
 		model = model = glm::mat4(1.0f);
 		model = glm::translate(model, glm::vec3(-1.3f, 0.0f, -1.0f));
 		model = glm::scale(model, glm::vec3(0.4f));
-		lightingShader.setMat4("model", model);`
+		lightingShader.setMat4("model", model);
+```		
 		
 Screenshot of completed project:
 
+![image](https://user-images.githubusercontent.com/86175837/154816208-33a09701-2c3c-4821-9a4c-7eb43a8b9557.png)
 
 
-### About Me
+## About Me
 
 ![image](https://user-images.githubusercontent.com/86175837/154809407-6aa7ff03-42da-46e4-8966-0c7705b71c36.png)
 
@@ -136,4 +174,4 @@ I currently work as a rate lock analyst at a nationwide mortgage company. I have
 
 I previously attended the New England College of Business and graduated in 2015 with my Bachelor's Degree in Business Administration, concentrated in Banking and Finance.
 
-I am orginially from Massachusetts, but I moved to Maine in 2017 and never looked back. I now live in a tiny rural town in Central Maine and I love it. In my spare time, I enjoy working on my house, gardening, reading, and playing with my two cats.
+I am orginially from Massachusetts, but I always wanted to live in Maine. I made the move in 2017. I now live in a tiny rural town in Central Maine and I love it. In my spare time, I enjoy working on my house, gardening, reading, and playing with my two cats.
