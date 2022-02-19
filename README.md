@@ -24,7 +24,9 @@ The biggest improvement, and the one I am most proud of, was the expansion of th
 ![code snippet 2](https://github.com/abbyFarnsworth/abbyFarnsworth.github.io/blob/main/code%20snippet%202.png)
  
 This program required a JUnit test to be created for each of the code modules, so there are 6 test programs. The tests are meant to check every function of the code. For example, the Patient Test verifies that the patient ID, first name, last name, phone number, address, prescriptions, and allergies information all fit within the character limit. Phone number is checked for both too many and too few digits. Furthermore, each field is checked to see if it can be pulled from the patient list and if it can be updated (snippet of JUnit test below). 
- 
+
+![code snippet 3](https://github.com/abbyFarnsworth/abbyFarnsworth.github.io/blob/main/code%20snippet%203.png)
+
 I think that this enhancement shows a lot of work concerning data structures and algorithms. The primary data structure used in these modules is a list. We use lists to keep elements in order, and we can easily insert, update, delete, and search the elements. Lists are a good idea when data remains relatively static, which works for a doctor’s office where the same fields are going to be needed over and over. The JUnit tests are used to test the behavior of the methods inside the classes. They are valuable not just because they can find mistakes, but also because they reveal whether or not the method is able to appropriately handle exceptions, reducing the likelihood of a buggy program. 
 
 ```java
