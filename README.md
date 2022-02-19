@@ -68,7 +68,7 @@ I chose to include this artifact for two primary reasons. The first is because I
 I reference the SEI Cert Oracle Coding Standard for Java a few times throughout my presentation. The SEI Cert is an entire book of algorithms written to help developers create more secure code. I really like their work and recommend it as a resource because they provide examples of compliant and non-compliant code, assess threat levels of coding issues or errors, and offer suggestions on automated software checking tools.
 
 # example slide on secure coding practices
-![secure coding](https://github.com/abbyFarnsworth/abbyFarnsworth.github.io/blob/main/string%20injection.png)
+![image](https://user-images.githubusercontent.com/86175837/154809646-df187da0-f987-4b0d-9764-05e09fd625c4.png)
 Link to my YouTube video with the full presentation: https://youtu.be/IOyjVY5J8c8
 
 # example slide on security policies
