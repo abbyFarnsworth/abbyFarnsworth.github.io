@@ -26,11 +26,11 @@ The biggest improvement, and the one I am most proud of, was the expansion of th
  
 This program required a JUnit test to be created for each of the code modules, so there are 6 test programs. The tests are meant to check every function of the code. For example, the Patient Test verifies that the patient ID, first name, last name, phone number, address, prescriptions, and allergies information all fit within the character limit. Phone number is checked for both too many and too few digits. Furthermore, each field is checked to see if it can be pulled from the patient list and if it can be updated (snippet of JUnit test below). 
 
-![code snippet 3](https://github.com/abbyFarnsworth/abbyFarnsworth.github.io/blob/main/code%20snippet%203.png)
+![image](https://user-images.githubusercontent.com/86175837/154809309-b7c19c0a-52d3-41bb-9337-cd688985f239.png)
 
 I think that this enhancement shows a lot of work concerning data structures and algorithms. The primary data structure used in these modules is a list. We use lists to keep elements in order, and we can easily insert, update, delete, and search the elements. Lists are a good idea when data remains relatively static, which works for a doctor’s office where the same fields are going to be needed over and over. The JUnit tests are used to test the behavior of the methods inside the classes. They are valuable not just because they can find mistakes, but also because they reveal whether or not the method is able to appropriately handle exceptions, reducing the likelihood of a buggy program. 
 
-#code detail for nested classes
+# code detail for nested classes
 ```java
 public class Task {
 
@@ -67,11 +67,11 @@ I chose to include this artifact for two primary reasons. The first is because I
 
 I reference the SEI Cert Oracle Coding Standard for Java a few times throughout my presentation. The SEI Cert is an entire book of algorithms written to help developers create more secure code. I really like their work and recommend it as a resource because they provide examples of compliant and non-compliant code, assess threat levels of coding issues or errors, and offer suggestions on automated software checking tools.
 
-#example slide on secure coding practices
+# example slide on secure coding practices
 ![secure coding](https://github.com/abbyFarnsworth/abbyFarnsworth.github.io/blob/main/string%20injection.png)
 Link to my YouTube video with the full presentation: https://youtu.be/IOyjVY5J8c8
 
-#example slide on security policies
+# example slide on security policies
 ![security policies](https://github.com/abbyFarnsworth/abbyFarnsworth.github.io/blob/main/triple%20a.png)
 
 #Databases
