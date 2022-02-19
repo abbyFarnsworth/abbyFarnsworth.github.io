@@ -29,6 +29,7 @@ This program required a JUnit test to be created for each of the code modules, s
 
 I think that this enhancement shows a lot of work concerning data structures and algorithms. The primary data structure used in these modules is a list. We use lists to keep elements in order, and we can easily insert, update, delete, and search the elements. Lists are a good idea when data remains relatively static, which works for a doctor’s office where the same fields are going to be needed over and over. The JUnit tests are used to test the behavior of the methods inside the classes. They are valuable not just because they can find mistakes, but also because they reveal whether or not the method is able to appropriately handle exceptions, reducing the likelihood of a buggy program. 
 
+#code detail for nested classes
 ```java
 public class Task {
 
@@ -70,3 +71,14 @@ Link to my YouTube video with the full presentation: https://youtu.be/IOyjVY5J8c
 
 #Databases
 
+This artifact is based off a project I did for CS340 Advanced Programming Concepts. That project was to create a Python-driven dashboard that would interface with a NoSQL database. This time, I used a sample database provided by MongoDB and connected it to PyCharm. I didn’t build a dashboard since that requires using HTML, and it is still beyond my skill scope at this time. Instead, I wrote a program that would interface with the database. 
+
+The MongoDB database, called a cluster, is hosted online. You can view it through the website and connect to it through PyCharm. The database MongoDB provided offered listings and reviews for Airbnbs. Below is a snippet of the information that a single entry provides: 
+
+The program was then written in PyCharm to mimic the structure of these entries. Here is a piece of the program that creates new listings:
+
+You can also update listing fields by searching the listing ID:
+
+It will also search entries for you and pull out the information you want to view. If a field is set to 1, the information will pull, and if it is set to 0, you can skip viewing that field.
+
+I hope including this artifact shows that I am not afraid to expand my skills, learn new systems, and attempt challenging projects. My purpose here is to demonstrate that I can create solutions that deliver value and meet goals. I believe employers are looking for people who can experiment with innovative new techniques and tools. In my experience, the willingness to learn--if that means sitting through hours of online tutorials or scouring the Internet for helpful articles--will take you far.
