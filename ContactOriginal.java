@@ -5,64 +5,54 @@
  * @author abby.farnswor_snhu
  * May 23 2021
  * CS320
- * contact program
+ * contact program test
  */
-package contact;
+package test;
 
-public class Contact {
+import static org.junit.jupiter.api.Assertions.*;
 
-	public static void main(String[] args) {
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+public class ContactTest {
 	
-	}
-/* variables used to create a contact*/
-	
-private String contactID;
-private String firstName;
-private String lastName;
-private String phoneNumber;
-private String address;
+	/* test contact info pulls in correctly*/	
 
-/* defines needed info & length for each string*/
-
-public Contact (String contactID, String firstName, String lastName, String phoneNumber, String address) {
-	if(contactID == null || contactID.length()> 10) {
-		throw new IllegalArgumentException("Invalid input"); 
-	}
-	if(firstName == null || firstName.length()> 10) {
-		throw new IllegalArgumentException("Invalid input"); 
-	}
-	if(lastName == null || lastName.length()> 10) {
-		throw new IllegalArgumentException("Invalid input"); 
-	}
-	if(phoneNumber == null || phoneNumber.length() != 10) {
-		throw new IllegalArgumentException("Invalid input"); 
-	}
-	if(address == null || address.length() > 30) {
-		throw new IllegalArgumentException("Invalid input"); 
-	}
-	
-	this.contactID = contactID;
-	this.firstName = firstName;
-	this.lastName = lastName;
-	this.phoneNumber = phoneNumber;
-	this.address = address;
+void testContact() {
+	Contact contact = new Contact("123ABC", "Leslie", "Jones", "2078819223", "1231 Briar Rd");
+	assertTrue(contact.getContactID().equals("123ABC"));
+	assertTrue(contact.getFirstName().equals("Leslie"));
+	assertTrue(contact.getLastName().equals("Jones"));
+	assertTrue(contact.getPhoneNumber().equals("2078819223"));
+	assertTrue(contact.getAddress().equals("1231 Briar Rd"));
 }
 
-/* sets up variables used to retrieve contact info */
+/* test length of strings*/
 
-public String getContactID() {
-	return contactID;
+void testContactIDTooLong() {
+	Assertions.assertThrows(IllegalArgumentException.class, () -> {
+		new Contact("123ABC", "Leslie", "Jones", "2078819223", "1231 Briar Rd");
+	});
+
 }
-public String getFirstName() {
-	return firstName;
+void testFirstNameTooLong() {
+	Assertions.assertThrows(IllegalArgumentException.class, () -> {
+		new Contact("123ABC", "Leslie", "Jones", "2078819223", "1231 Briar Rd");
+	});
 }
-public String getLastName() {
-	return lastName;
+void testLastNameTooLong() {
+	Assertions.assertThrows(IllegalArgumentException.class, () -> {
+		new Contact("123ABC", "Leslie", "Jones", "2078819223", "1231 Briar Rd");
+	});	
 }
-public String getPhoneNumber() {
-	return phoneNumber;
-}
-public String getAddress() {
-	return address;
+void testPhoneNumberTooLong() {
+	Assertions.assertThrows(IllegalArgumentException.class, () -> {
+		new Contact("123ABC", "Leslie", "Jones", "2078819223", "1231 Briar Rd");
+	});
+}	
+void testAddressTooLong() {
+		Assertions.assertThrows(IllegalArgumentException.class, () -> {
+			new Contact("123ABC", "Leslie", "Jones", "2078819223", "1231 Briar Rd");
+		});	
 }
 }
