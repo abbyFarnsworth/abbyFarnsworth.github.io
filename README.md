@@ -86,7 +86,7 @@ The program was then written in PyCharm to mimic the structure of these entries.
 
 You can also update listing fields by searching the listing ID:
 
-![listing id](https://github.com/abbyFarnsworth/abbyFarnsworth.github.io/blob/main/pycharm%20program%20update.png)
+![image](https://user-images.githubusercontent.com/86175837/154809582-9a9c751b-7244-4863-9c32-0f14780940be.png)
 
 It will also search entries for you and pull out the information you want to view. If a field is set to 1, the information will pull, and if it is set to 0, you can skip viewing that field.
 
