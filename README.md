@@ -77,6 +77,8 @@ The MongoDB database, called a cluster, is hosted online. You can view it throug
 
 The program was then written in PyCharm to mimic the structure of these entries. Here is a piece of the program that creates new listings:
 
+![new listing](https://github.com/abbyFarnsworth/abbyFarnsworth.github.io/blob/main/pycharm%20program%20create.png)
+
 You can also update listing fields by searching the listing ID:
 
 ![listing id](https://github.com/abbyFarnsworth/abbyFarnsworth.github.io/blob/main/pycharm%20program%20update.png)
