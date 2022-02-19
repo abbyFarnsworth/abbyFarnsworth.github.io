@@ -112,6 +112,19 @@ I hope including this artifact shows that I am not afraid to expand my skills, l
 ![image](https://user-images.githubusercontent.com/86175837/154815832-9ef218f9-c481-4d2a-af09-8aa9bcafedf2.png)
 
 #### OpenGL
+Sample of C++ code written for OpenGL program:
+`               // draw plane
+		glDrawElements(GL_TRIANGLES, planeNumIndices, GL_UNSIGNED_SHORT, (void*)planeIndexByteOffset);
+
+		// setup to draw sphere 1
+		glBindTexture(GL_TEXTURE_2D, ballDiffuseMap);  // bottom of DVD stand
+		glBindVertexArray(sphereVAO);
+		model = model = glm::mat4(1.0f);
+		model = glm::translate(model, glm::vec3(-1.3f, 0.0f, -1.0f));
+		model = glm::scale(model, glm::vec3(0.4f));
+		lightingShader.setMat4("model", model);`
+		
+Screenshot of completed project:
 
 
 ### About Me
