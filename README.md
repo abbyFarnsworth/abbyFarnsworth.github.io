@@ -172,7 +172,8 @@ It will also search entries for you and pull out the information you want to vie
 #### CS330 Comp Graphic & Visualization
 ##### Sample of C++ code written for OpenGL program:
 
-```C++          // draw plane
+```C++          
+		// draw plane
 		glDrawElements(GL_TRIANGLES, planeNumIndices, GL_UNSIGNED_SHORT, (void*)planeIndexByteOffset);
 
 		// setup to draw sphere 1
